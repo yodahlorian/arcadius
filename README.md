@@ -28,9 +28,11 @@ no installer.
 | | |
 |---|---|
 | `W A S D` | move |
-| `E` | use — machines, the console, the OPEN sign, the radio |
-| `ENTER` | start a game once you are at a cabinet |
-| `ESC` | leave a game |
+| `SHIFT` | sprint |
+| `CTRL` / `C` | crouch |
+| **left click** | use — machines, the console, the OPEN sign, the radio |
+| **right click** | open the build menu |
+| `ESC` | step back one page, or open the pause menu |
 
 ## Beta notes
 
