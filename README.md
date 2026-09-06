@@ -26,6 +26,35 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.9.5
+
+**The parked cars are rebuilt.** They were the last blocky thing on the street — literally stacked
+boxes, and shorter and taller than any car of the decade. Every vehicle is now built from
+looked-up 1980s dimensions and shaped rather than stacked.
+
+- **Five vehicles instead of two** — a full-size sedan, an estate, a compact hatchback, a van and
+  a pickup, each to its own measured length, width, height and wheelbase
+- **Bodies are shaped, not boxed.** Each one is swept from cross-sections, so every edge is
+  chamfered, the nose and tail draw in, and the flanks are flat slab sides with a hard crease —
+  no right angles anywhere on the car
+- **Real glasshouses.** A raked windscreen you can see the dashboard and steering wheel through,
+  dark side glass set into chrome-framed openings, a solid roof and a wide rear sail pillar
+- **Built like a car** — chassis rails, silencer and exhaust under the floor; wheels with rims,
+  hubs and lug nuts tucked up into their arches; an engine under the bonnet; and a fitted
+  interior with a dash, a steering wheel, front seats and a rear bench
+- **Period detail** — quad rectangular headlamps flanking a slatted chrome grille, amber lenses
+  set into the bumper, wrapped tail lamps and a number plate, 5 mph bumpers with rubber strips,
+  body-side mouldings, door shut lines, mirrors and full wheel covers
+- The rank outside cycles all five, so no two cars in a row are the same
+
+**Fixes**
+- **You could see straight through the parked cars.** The whole cabin was one transparent volume,
+  so a car read as a wireframe with furniture inside it. The cab is bodywork now, and only the
+  windscreen is glass
+- Wheels no longer hang below the bodywork like castors — the rocker sits under the axle line and
+  the tyres tuck into the flanks
+- Wheel arches read as openings with a rim and a shadow, instead of a flat plate painted on
+
 ## What changed in 0.9.4
 
 **The block outside is a real street.** Ten businesses with names, lit signs, interiors you can look
@@ -123,7 +152,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.4-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.9.5-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
