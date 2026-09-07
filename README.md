@@ -26,7 +26,24 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
-## What changed in 0.9.9
+## What changed in 0.10.0
+
+**The back-room computer is a computer.** It was a grid of rounded tiles &mdash; a phone's settings
+screen wearing an arcade's colours. It is now the machine a shop office actually had in 1985: an
+amber monochrome tube running a text-mode program.
+
+- A ruled panel, a numbered menu you read down, the selection in **inverse video**, a blinking
+  `READY` prompt and a reverse-video function-key strip along the bottom
+- Scanlines, phosphor wash and the corner falloff of a curved tube
+- Locked entries say `[LOCKED]` and what to do first, in plain English
+- The task card no longer draws over the menu while you are sitting at the screen
+
+**Naming your arcade &mdash; the first thing the game asks you to do &mdash; looks like part of the
+game now.** It was a bare label, a default grey text box and two identical grey buttons. It has a
+heading, a caption, a framed input in the shopfront's own colours, a live character count, and one
+clear primary action.
+
+
 
 - **String fix.** A few readouts still counted your takings in "gold" &mdash; the day summary and
   the facade tool among them. Everything that shows money now shows money
@@ -208,7 +225,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.9-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.0-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
