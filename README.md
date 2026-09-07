@@ -26,6 +26,27 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.9.8
+
+**The arcade runs on quarters.** A play used to cost a whole dollar while the machines were called
+quarter cabinets. Now a quarter cabinet takes an actual 25&cent;, and every price in the game is
+denominated to match &mdash; machines, rent, licences, spares, wages and your own bank balance.
+
+- **A play is 25&cent;**, or 50&cent; and 75&cent; on the bigger cabinets, and the coin readout on a
+  machine says so
+- Money reads in dollars and cents everywhere &mdash; **$225.00**, not `225`
+- The balance is unchanged: every figure was rescaled by the same amount, so the shop earns and
+  spends exactly as it did. Only the denomination is different
+- **Existing saves are converted automatically** the first time they load
+
+**Patrons walk all the way to a machine before they play.** They were starting the
+grip-the-controls, feed-the-coin routine while still short of the cabinet, and reaching for
+controls they could not have touched. They now finish the walk, stand on the mark, and play.
+
+**The prize shelf is an arcade prize shelf.** Its collectibles described bonuses for games this
+game does not have, and none of them altered anything. They now offer takings, custom and
+experience &mdash; and they work.
+
 ## What changed in 0.9.7
 
 - **String fix.** The demo notice named the wrong game and offered content this one does not have.
@@ -182,7 +203,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.7-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.9.8-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
