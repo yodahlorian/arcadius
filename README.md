@@ -26,6 +26,31 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.9.6
+
+**Three fixes to how the arcade behaves and sounds.**
+
+- **Patrons play at human speed again.** The whole grip-the-controls, feed-the-coin, work-the-stick
+  performance was running at the day-clock's speed — and the day runs at 2x by default, 4x on the
+  fast setting. So a patron walked to a machine at a normal pace and then played it at double
+  speed. The performance is now real-time, and looks the same at 1x, 2x and 4x
+- **The house music is a background bed, not a support act.** Our own soundtrack was mixed
+  fractionally *louder* than the machines themselves and played continuously, so it sat on top of
+  the whole room. It is now about 10 dB under the arcade floor — present, but never in the way.
+  Your own radio is untouched: if you put your music on, it stays where it was
+- Machine and room volumes are unchanged; the faders still work the same way
+
+**Repairing a machine is a job now, not a click.**
+
+- **The dead part has to come out first.** Open the panel a machine's fault is behind and you pull
+  the failed unit — the power supply, the board, the tube, the mech. The bay is then visibly
+  **empty**, and only then will a replacement go in. Trying to fit one on top of the old unit is
+  refused, and tells you why
+- The bay you empty is the real one: every cabinet already has its board on a shelf, its power
+  supply, its coin mechs and its tube behind the doors that open, and it is that unit which
+  disappears — brackets, loom and all still there around the gap
+- The prompts follow the two beats, so the machine always tells you which one you are on
+
 ## What changed in 0.9.5
 
 **The parked cars are rebuilt.** They were the last blocky thing on the street — literally stacked
@@ -152,7 +177,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.5-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.9.6-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
