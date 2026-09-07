@@ -26,6 +26,11 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.9.7
+
+- **String fix.** The demo notice named the wrong game and offered content this one does not have.
+  It now names Arcadius, and offers what Arcadius actually has
+
 ## What changed in 0.9.6
 
 **Three fixes to how the arcade behaves and sounds.**
@@ -177,7 +182,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.6-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.9.7-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
