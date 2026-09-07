@@ -26,6 +26,12 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.10.1
+
+- Buttons say what they do. The rename dialog is **Confirm / Cancel**, and the console's save,
+  staff and hire buttons follow the same rule
+- Fixed the staff hire button showing a raw number instead of a price
+
 ## What changed in 0.10.0
 
 **The back-room computer is a computer.** It was a grid of rounded tiles &mdash; a phone's settings
@@ -225,7 +231,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.0-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.1-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
