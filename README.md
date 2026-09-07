@@ -26,6 +26,11 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.9.9
+
+- **String fix.** A few readouts still counted your takings in "gold" &mdash; the day summary and
+  the facade tool among them. Everything that shows money now shows money
+
 ## What changed in 0.9.8
 
 **The arcade runs on quarters.** A play used to cost a whole dollar while the machines were called
@@ -203,7 +208,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.9.8-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.9.9-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
