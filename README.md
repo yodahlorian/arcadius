@@ -26,6 +26,15 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.10.4
+
+**You can diagnose a fault now.** One unnormalised dictionary lookup was hiding the whole repair
+loop: the room registers its walk-up targets under the Title Case machine name, `machine_parts` is
+keyed lower case, and a missed lookup falls through to a HEALTHY default — so a dead cabinet
+reported no fault at all and offered you "[click] Play". Machine keys are normalised at the door
+now, readers and writers, and standing at a faulty machine names the symptom and tells you which
+panel to open.
+
 ## What changed in 0.10.3
 
 **A broken machine now looks and sounds broken.** The fault table has always described a visible
@@ -260,7 +269,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.3-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.4-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
