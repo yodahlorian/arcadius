@@ -26,6 +26,26 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.10.2
+
+**The NPCs.** The play cycle now runs to completion: the performance and the economy were on two
+different clocks, and at the default 2x speed a patron was released 52% of the way through the beat
+— they paid for a game and never played it. The hold is also rolled per go now, one to five seconds
+with a per-patron temperament behind it, so a busy floor stops pulsing in unison.
+
+**Queues.** Patrons will line up for any machine rather than only their favourite type, and wait
+four times as long before giving up — previously a full floor emptied out, which made a busy arcade
+behave like a bad one. They keep their personal space while standing (it only applied while walking,
+which excluded everybody actually in a line), and they look around while they wait.
+
+**Comings and goings.** Nobody appears or vanishes in view of the shop any more; arrivals and
+departures happen off the ends of the block. The doors close when the day ends and open when you do,
+employees let themselves in of a morning, and you can still walk in and out with the doors shut.
+
+**Faults.** The scripted repair lesson fires from day two ONWARDS rather than on day two only, and
+it announces itself — a player still on one cabinet used to get no fault at all, and nothing to
+diagnose.
+
 ## What changed in 0.10.1
 
 - Buttons say what they do. The rename dialog is **Confirm / Cancel**, and the console's save,
@@ -231,7 +251,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.1-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.2-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
