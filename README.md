@@ -26,6 +26,14 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.1
+
+**The parts economy is complete.** The shelf is split by tier — one click opens a quality selector,
+then the units in that tier healthiest first. The third bench slot is redeemed at the prize shelf
+for tickets and money, so all four slots work end to end. And the condition block inside the coin
+door is taught, on the beat where you first open that door — which is the moment the lamps become
+visible.
+
 ## What changed in 0.11.0
 
 **The parts economy.** Parts are now individual units with health, tier and service history rather
@@ -292,7 +300,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.11.0-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.11.1-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
