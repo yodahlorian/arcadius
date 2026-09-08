@@ -26,6 +26,15 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.10.3
+
+**A broken machine now looks and sounds broken.** The fault table has always described a visible
+symptom per part — dark, hashed screen, black tube with sound, coin jam — but only the repair
+prompt ever read it. The cabinet itself never asked, so a machine with a dead PSU ran its attract
+demo exactly like a healthy one. No power now puts the tube and the cabinet lights out, a board
+fault shows static, a dead tube goes black BUT KEEPS ITS SOUND (that is how you tell the two
+apart), and a jammed coin mech stays completely normal — only the day's take reveals it.
+
 ## What changed in 0.10.2
 
 **The NPCs.** The play cycle now runs to completion: the performance and the economy were on two
@@ -251,7 +260,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.2-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.3-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
