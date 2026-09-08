@@ -26,6 +26,17 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.0
+
+**The parts economy.** Parts are now individual units with health, tier and service history rather
+than a count per type. The tier ladder — premium, standard, salvage — is a part's remaining life: a
+unit at 0% is not rubbish, it is rebuilt one tier down at 96%, and only a spent salvage part is
+scrap. A workbench in the back room services parts within their tier (with diminishing returns) or
+rebuilds them a tier down overnight, and maintaining a part is cheaper than replacing it at every
+point on the curve. A light block inside the coin door shows a colour per part for free; the service
+reader adds exact wear, the tier, and how many plays it has left. Used machines are priced from the
+parts actually inside them, and the technician works to thresholds you set.
+
 ## What changed in 0.10.5
 
 **Faults you can see.** Every fault tell used to be audio, an absence, or a delayed consequence —
@@ -281,7 +292,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.5-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.11.0-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
