@@ -26,6 +26,18 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.10.5
+
+**Faults you can see.** Every fault tell used to be audio, an absence, or a delayed consequence —
+none of which is usable by a player who cannot hear the machine. There are now three redundant
+layers: the screen from the aisle (dark / static / black), two coin-door lamps (green power,
+red jam), and scorch on the failed unit once the panel is open. Every cabinet also has a free
+DIAGNOSTICS menu with a health bar per part.
+
+**The coin mech has two faults.** Jammed — possible on any play once it is worn below 40%, plays
+fine but takes no money, cleared by hand for free and does not restore health. Burnt out — a dead
+part that needs replacing.
+
 ## What changed in 0.10.4
 
 **You can diagnose a fault now.** One unnormalised dictionary lookup was hiding the whole repair
@@ -269,7 +281,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.10.4-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.10.5-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
