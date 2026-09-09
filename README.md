@@ -26,6 +26,33 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.3
+
+**High scores.** Every game on every cabinet now keeps its own table — one per title, so a set
+cabinet carries a separate board for each game it runs.
+
+**The original creators hold first place.** Every machine is modelled on a real coin-op, and the
+person who made that coin-op sits at the top of its table as a throwback: Allan Alcorn on Ping,
+Toru Iwatani on Chomp-Man, Dave Theurer on Missile Guard and Vortex, Dona Bailey on Crawler,
+Shigeru Miyamoto on Girder Climb. The rest of the original team fills fourth and fifth. Where the
+record keeps no name — Track & Field and BurgerTime credited nobody — the studio takes the spot.
+
+**Set your initials once.** Three letters on a proper arcade letter grid, and they appear on every
+score you hold. Change them later and every one of your scores is renamed with them. The same grid
+now spells out your arcade's name too.
+
+**Records pay.** Landing on a board earns you cash on a sliding scale — $50 for your first record
+on a machine, then $40, $30, $20, $10, $5, and down to a quarter. It never stops paying and it
+never drops below a quarter, which is exactly what one play costs.
+
+**Your customers compete.** Patrons put their own initials up, most often during events — but only
+once you have a score of your own on that machine, and never by more than 2%. The top spot is
+always winnable back.
+
+**Attract mode runs the boards.** A cabinet demos a game until it dies, shows that game's high
+scores, then moves to the next game it holds and does the same. Multi-game cabinets cycle every
+title they carry.
+
 ## What changed in 0.11.2
 
 **The change machine.** The old owner leaves one behind. Site it where you want and it becomes the
