@@ -26,6 +26,21 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.4
+
+**The menus are arcade menus now.** Click a cabinet and you get the machine's own select screen
+rather than a settings panel: numbered options you can pick by pressing 1-9, a blinking cursor, and
+prices and scores lined up in a column you can scan down.
+
+**Every machine's menu comes up in that machine's colours** — Missile Guard's is red because Missile
+Guard is red. The shop's own screens stay neutral, because those belong to you and not to a cabinet.
+
+**Icons are drawn, not emoji.** They match the game's palette, they are the same weight and size on
+every machine, and colour carries meaning: green plays, gold takes money, red sells.
+
+**Built to be read by a child or an adult.** The number is as loud as the label, so a player who
+cannot read "collect the cash box" can still press 2.
+
 ## What changed in 0.11.3
 
 **High scores.** Every game on every cabinet now keeps its own table — one per title, so a set
