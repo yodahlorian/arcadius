@@ -26,6 +26,26 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.6
+
+**The first week can now actually be finished.** The last step — repairing a cabinet you bought
+used — had a name, an instruction and a reward, and nothing in the game ever completed it. It does
+now, and the used machines you buy are remembered so it knows which repair counts.
+
+**Naming your arcade "Arcadius" works.** It is the name already on the fascia, so typing it did
+nothing at all: no reward, no sign change, no explanation, and the step stuck forever.
+
+**The used market can now be a bad deal.** Sellers do not always mention everything — some listings
+hide a fault, usually an expensive one, and occasionally two. A tidy-looking cabinet can cost you
+more than buying new once you have fixed it. That is the gamble the tab was supposed to be.
+
+**The title screen tells you which build you are running**, how long ago each save was written, and
+warns you before you continue a save from an older version.
+
+**Smaller things.** The lease now tells you how much you are actually short rather than quoting the
+whole rent. The vacant unit advertises the rent instead of borrowing the game's name. Deleting a
+save says DELETE rather than a bare ✕.
+
 ## What changed in 0.11.5
 
 **The build menu got the same treatment.** Right-click anywhere still opens it, but it is now the
