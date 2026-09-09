@@ -26,6 +26,19 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.5
+
+**The build menu got the same treatment.** Right-click anywhere still opens it, but it is now the
+same arcade select screen as the cabinets: numbered machines, a blinking cursor, prices lined up
+down the right.
+
+**Long lists page properly.** Once you own more than nine licences the menu pages, and the page
+count sits in the header so you can see there is more. The mouse wheel turns the page, as do the
+arrow keys — previously you could reach the second page only from the keyboard.
+
+**The siting instructions still sit under the list** where you can read them while you choose,
+rather than being discovered by experiment afterwards.
+
 ## What changed in 0.11.4
 
 **The menus are arcade menus now.** Click a cabinet and you get the machine's own select screen
