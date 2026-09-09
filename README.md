@@ -26,6 +26,31 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.2
+
+**The change machine.** The old owner leaves one behind. Site it where you want and it becomes the
+first stop of every visit: customers break their notes at it, take quarters, and only then play.
+
+- **Two stores, and they are not the same money.** Notes pile up in the bill mech — that is your
+  income. Quarters drain out of the hopper as customers take them. A machine full of notes and out
+  of coins is no use to anybody.
+- **Coin boxes now pay you in QUARTERS, not cash.** They are the same coins that go back into the
+  changer. Your float is carried on you and shown beside your money.
+- **Run out and the shop stops.** A customer who cannot get change jumps, raises an alert over
+  their head, waits about forty seconds, then walks out — a sale you watched yourself lose.
+- A second machine is $250 from the console, licence included.
+- Your collector empties the bill mech; your stockhand walks your quarters back to the hopper.
+
+**Customers tell you what they think.** A thumbs-up or thumbs-down floats over a patron after a
+play, and an alert over anyone stuck — a dead machine, or a changer with nothing in it. Only the
+alert jumps, because it is the one you can do something about.
+
+**The front doors are real doors.** They had no collision at all: you walked through a shut
+shopfront. They now push open the way you are walking and swing closed behind you.
+
+**Saves from 0.11.1 carry over.** You inherit the change machine unsited with the previous owner's
+float still in it, and the new steps appear in your task list.
+
 ## What changed in 0.11.1
 
 **The parts economy is complete.** The shelf is split by tier — one click opens a quality selector,
@@ -300,7 +325,7 @@ divergences were fixed. The ones a player will actually feel:
 
 ## Beta notes
 
-**Current build: 0.11.1-beta.** An early build for playtesting. Three things the team most wants
+**Current build: 0.11.2-beta.** An early build for playtesting. Three things the team most wants
 feedback on:
 
 1. **The music.** It is generated rather than composed, so the question is whether it sounds like
