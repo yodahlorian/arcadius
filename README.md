@@ -26,6 +26,33 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.7
+
+**The cabinets are built properly now.** On every upright, five panels — the control deck, the
+shelf above it, the step below the fascia, the screen surround and the speaker panel — were sitting
+proud of the side panels instead of flush inside them, so the machines had a stepped, unfinished
+edge from any angle but head-on. They sit where they should.
+
+**Parts have stopped fighting each other.** All over the floor, surfaces that touched exactly were
+flickering against one another as the camera moved — every button on every control panel, the
+components on the game boards, the tube inside each monitor, the speakers, the legs and the glass
+surround on the cocktail tables. They interlock now instead of meeting, so nothing flashes.
+
+**You can no longer see inside a cabinet through its coin door.** The opening cut for the coin
+mechanism was larger than the mechanism on every machine, leaving a slot all the way round.
+
+**The cocktail tables no longer have something white hanging out of the bottom.** That was the
+ticket tray, sized for a full-height cabinet and left dangling below a table.
+
+**The change machine.** The coin bowl now sits half under the front panel with the flap directly
+above it, the way one actually works, and the flap opens all the way down to the steel ledge
+instead of stopping short behind a lip. The ledge is finished along both ends as well as the front,
+and the cabinet sides stop below the steel instead of running up through it.
+
+**Smaller things.** The printed artwork on every machine sits down on the panel it is glued to
+rather than floating a hair above it. The back panel, the power supplies and the scorch marks on a
+broken part are all seated properly.
+
 ## What changed in 0.11.6
 
 **The first week can now actually be finished.** The last step — repairing a cabinet you bought
