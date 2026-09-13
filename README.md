@@ -26,6 +26,23 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.8
+
+**The corners are corners again.** Every panel in the game is built with a chamfered edge, and the
+piece that closes each corner was cut from the sharp corner the chamfer exists to remove. The result
+was three small splinters standing out past the corner with daylight visible between them — most
+obvious on the top of the bill changer, but present on every chamfered part in the game. The corners
+are now closed.
+
+**The trackball ring and Mimic's four pads have stopped flickering.** Both were resting exactly on
+the surface of the control deck rather than set into it, so the two surfaces argued about which one
+you could see and the answer changed as you moved. Every other control was fixed for this last
+week; these two were beside them and were missed.
+
+**The puck table's monitor surround is built the right way round.** Its screen opening is taller
+than the panel it is cut into, and the two end pieces of that panel were coming out the wrong length
+and being laid inside the opening, on top of the side pieces.
+
 ## What changed in 0.11.7
 
 **The cabinets are built properly now.** On every upright, five panels — the control deck, the
