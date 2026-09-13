@@ -26,6 +26,25 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.9
+
+**Esc cancels a placement again.** While siting a machine, Esc opened the pause menu instead of
+putting the cabinet back down — it skipped the cancellation entirely. The on-screen prompt said
+"[Esc] cancel" the whole time, which made it worse. Esc now cancels the placement, and only opens
+the pause menu when there is nothing else to back out of.
+
+**The floor is less empty.** Cabinets stood 440 mm apart, which left a corridor of bare carpet
+between every pair of machines in a room that is meant to read as a packed arcade. That gap is now
+300 mm — still enough to see the side art on every cabinet from the aisle, which is the point of
+leaving any gap at all.
+
+**Machines now reserve the floor they actually cover.** A cocktail table's top overhangs its body
+by 55 mm on each side, and the floor plan was booking space by the body — so the game thought a
+cocktail was 110 mm narrower than it is. Nothing ever collided, because the old spacing was wide
+enough to hide it; tightening the floor without fixing this first is what would have made two
+cocktail tables touch. The pinball's screen, standing 28 mm proud of its cabinet each side, was the
+same thing. Every machine's declared size is unchanged, so existing saves lay out exactly as before.
+
 ## What changed in 0.11.8
 
 **The corners are corners again.** Every panel in the game is built with a chamfered edge, and the
