@@ -26,6 +26,16 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.11
+
+**The change machine can be picked up.** Clicking the old owner's changer on the tutorial's move step
+said "Cannot pick that up." — on a fresh game, on a continued one, every time. Once the lease was
+signed the room was building the changer twice: once against the wall, then again from the saved
+floor list, and the second copy was created while the first was still being torn down, so the engine
+quietly gave it a different name and the click could no longer find it. The same double build stamped
+the machine's saved position to the room's origin. It is built once now, the floor list follows where
+it actually stands, and the case is a permanent gate that fails on the old code.
+
 ## What changed in 0.11.10
 
 **The first ten minutes work again.** Four things blocked a new player between taking the lease and
