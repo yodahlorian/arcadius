@@ -26,6 +26,43 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.10
+
+**The first ten minutes work again.** Four things blocked a new player between taking the lease and
+reaching the console, and all four are fixed:
+
+- **The doors of a boarded unit stayed shut.** The front doors swung open for anyone who walked up,
+  lease or no lease — and then stopped you with an invisible wall behind them. Until the lease is
+  signed the doors do not move.
+- **Walking through the door no longer fights you.** The leaves swing away from whichever side you
+  approach from, but the side was re-read every frame — so the moment you crossed the threshold the
+  door reversed and swung back through you. The direction is now held for the whole pass and only
+  released once you are clear of the doorway.
+- **The change machine is not a game.** Walking up to it offered "[click] Play" and then threw an
+  error, because it was being asked about like a cabinet. It has its own prompts now: pick it up and
+  move it; open the bill mech; open or restock the quarter bin.
+- **The tutorial has its missing step back.** Rent → name the shop → **move the change machine** →
+  the console. Moving the old owner's changer is how the game teaches pick-up-and-place, and it now
+  comes before the console asks you for anything; the Decor app waits for it. The hint also says the
+  right thing — click the machine to pick it up (the build menu never listed it).
+
+**Every bespoke machine is now built from one file.** Skee-ball, gopher bash, rhythm pad, pinball,
+puck table, the claw and the rest each carry their own body, game and attract mode in a single script
+instead of a shared 4,700-line dispatcher. Same machines, same look — the change is what makes the
+next round of machine fixes fast.
+
+**Pinball is real pinball.** Eleven period Gottlieb boards, each laid out from its actual playfield
+data, a real-size cabinet, and ball physics in metres. Every board was probed with thirty random balls:
+all drain, none escape.
+
+**Puck table and pinball pay in quarters only.** Both are quarter-tier machines and had been paying
+tickets; the ticket slots are gone and the payout gate is on the tier, not the machine. Puck table now
+unlocks at level 2.
+
+**Small things, seen from inside the validator:** every machine's hands rest where a player's hands go
+(named anchors on all ten bespoke bodies); the claw's floor target pointed at the origin; eight machines
+reported their neighbour's measurements in the review caption.
+
 ## What changed in 0.11.9
 
 **Esc cancels a placement again.** While siting a machine, Esc opened the pause menu instead of
