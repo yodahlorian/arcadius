@@ -26,6 +26,22 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.13
+
+**A fresh game starts with a fresh change machine.** A new game inherited the hopper, the stacker, the
+sited flag and the position from whichever save was loaded at boot — so "delete the save and start
+over" started with someone else's changer, and the first-week beats around it misfired. Every changer
+field is reset with the rest of the game now.
+
+**The bill mech has something in it on day 1.** The tutorial asks you to empty the stacker straight
+after siting the machine, before a single visitor has paid — so the click fell through to the quarter
+bin and the step could never be ticked off. The old owner left $40 in the stacker; the first open
+collects it and the beat lands where the tutorial says it does.
+
+**You have to walk up to things.** The OPEN sign, the change machine, the cabinets, the console, the
+fascia and a delivered box all answered a click from over two metres away. One arm's length now —
+1.5 m from the point in front of the thing — everywhere, the same distance.
+
 ## What changed in 0.11.12
 
 **The change machine can be set down.** Picking it up worked after 0.11.11, but the click to place it
