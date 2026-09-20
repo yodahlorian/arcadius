@@ -26,6 +26,18 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.12
+
+**The change machine can be set down.** Picking it up worked after 0.11.11, but the click to place it
+did nothing — it floated over a green pad forever. The pick-up built the placement but never told the
+HUD, which owns the click, so every click went to the world instead. It is handed over now, the same
+way every other cabinet move is.
+
+**Day 1 opens only once there is a floor to open.** The OPEN sign accepted the switch the moment the
+lease was signed, so an eager player could trade an empty room. On day 1 the doors now stay shut until
+the change machine is sited, a licence is bought and a cabinet is placed — the three steps the tutorial
+runs before the console asks for anything. Throwing the switch early tells you which step is still owed.
+
 ## What changed in 0.11.11
 
 **The change machine can be picked up.** Clicking the old owner's changer on the tutorial's move step
