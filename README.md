@@ -26,6 +26,35 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.14
+
+**The opening, looked at line by line.** A pass over day one with every screen, prompt and street
+prop taken in turn — the pass continues from here.
+
+- **Main menu:** the wordmark is bent neon tube with a real halo; two live cabinets flank it,
+  drawn by the floor's own builder from a random pair each load; the glyph row under the tagline
+  is a conveyor from every game's own sprites; ten new taglines.
+- **Every game's art is a pattern.** The carpet, wall and ceiling patternizer now draws from every
+  cabinet's sprite family, and a title's patterns unlock with its license. A new game file is a
+  cabinet, a pattern and a menu glyph with no shared code touched.
+- **The street:** flats with windows to the roof and lights on at random, no placeholder text,
+  no fire escapes, the near row as deep as the far one, every shop doorway open with nothing
+  standing in it, posters in the cinema's cases, the STUDIO blade on its wall and cut to its
+  letters, a real phone booth, and collision on every prop and car.
+- **The tutorial:** you spawn across the street facing the boarded unit; one task at a time,
+  counted from one; "Sign the lease", "Move the change machine", "Run the first day" (the cash
+  boxes wait for closing time), and the change machine has a menu — open the bill mech or the
+  change drawer, the door swings, the next click does the job. The old owner left the hopper
+  full and $40 in the stacker.
+- **The console:** licensing, naming and decor rebuilt as centred pages with boxed sections;
+  license prices are per title; Dojo is a fighter; the task card stays up at the console; the
+  arcade-grid keyboard lives inside the page.
+- **Fixes:** patrons no longer jam at the door (two bugs in the change-machine service), the
+  hopper is no longer drained by one visitor (a wallet-in-cents bug), the "!" only means the
+  shop needs you — an empty changer or a broken machine — and it is held for 45 real seconds;
+  Ctrl crouches again after using the console; fresh games start with a fresh changer; the day-1
+  OPEN switch waits for a sited changer, a license and a cabinet; more visitors per day.
+
 ## What changed in 0.11.13
 
 **A fresh game starts with a fresh change machine.** A new game inherited the hopper, the stacker, the
