@@ -26,6 +26,18 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.17
+
+**A maintenance cut, not a gameplay change.** The build is the 0.11.16 pixel-art pass re-exported
+with the version bumped and the validator rebuilt from the same source, so the two exes match again.
+
+- **Attract sheet in motion.** Every one of the 59 screen titles now has a short attract-mode loop
+  captured from the real game (the review page that drives the next art pass) — tooling only,
+  nothing in the exe.
+- **Pricing review started.** Every cabinet's price and licence has been tabled for a ruling; no
+  number in the game has changed yet. The bespoke pass that follows will write the approved values
+  into each machine.
+
 ## What changed in 0.11.16
 
 **Every screen game drawn with real pixel art.** All 34 quarter-machine files — 59 titles — have
