@@ -26,6 +26,29 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.15
+
+**Day one is sized to the change machine.** The quarters are a closed loop — changed for notes,
+played into the cabinets, collected and put back — and nobody is asked to collect until the first
+day is over, so the first day now runs on what the old owner left.
+
+- **The change machine holds 2,000 quarters and is found with 1,500.** Every visitor changes their
+  whole wallet; on day one a wallet is at most $2.50, so exactly 150 customers come through the
+  door and the hopper lasts to closing. Day-one takings: $375.
+- **The day starts at 10:00**, fully lit. Same closing times. A weekday is fourteen game hours.
+- **Day one arrives on a curve:** a handful an hour through the afternoon, a rush from early
+  evening into night, and a few stragglers before closing.
+- **A real line at the change machine.** Six places make a line — folded along the room where it
+  would meet a wall — and everybody else waits in the lobby until a place frees. Before, every
+  waiting visitor was pointed at a spot further and further behind the stand, straight through
+  the front wall, and the rush stood in a heap against the shopfront with nobody being served.
+- **Longer lines at the cabinets** — up to seven deep, three at the least — and on day one nobody
+  walks out in a bad mood: they wait it out.
+- **Fixes:** a visitor who left mid-line no longer holds the change machine for the rest of the
+  day (everybody behind them queued at an empty stand); visitors no longer stand nose-to-glass on
+  a phone booth or a bench — they slip round it — and the pavement lane keeps clear of the street
+  furniture.
+
 ## What changed in 0.11.14
 
 **The opening, looked at line by line.** A pass over day one with every screen, prompt and street
