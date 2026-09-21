@@ -26,6 +26,28 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.16
+
+**Every screen game drawn with real pixel art.** All 34 quarter-machine files — 59 titles — have
+been through an origin pass: each game's characters, enemies, pickups and props are now hand-authored
+pixel sprites in the spirit of the machine it mimics, with animation where the original animated,
+instead of the circles and rectangles that stood in for them.
+
+- **The characters:** a pointed-hat digger and his creeps, the barkeep and his thirsty patrons, a
+  helmeted driller with puffers and fire-breathing lizards, a wedge-mouthed muncher with four ghosts
+  (and a blue scared face), a segmented crawler with a head and legs, the snouted hopper on his
+  pyramid, a ladybird among flowers, a carpenter with a hammer against rolling barrels, a top-down
+  frog with cars and turtles, a red penguin and grinning snow-bees, a knight on a flying bird, a
+  spotted-shell squad of three invader ranks that flap as they march, a chef and his walking egg and
+  sausage, a policeman mouse and prowling cats, an armoured worrior and three dungeon beasts.
+- **Vehicles in eight headings:** planes, racers and tanks are authored in three frames and mirrored
+  into eight, so they point where they go.
+- **Boards that look like the machine:** brown soil bands under a tunnel game, red riveted girders,
+  continuous maze walls, bevelled ice blocks, cut gems, a wooden bar with brass taps, a running track.
+- **The main menu and the cabinets read the new art:** the glyph conveyor under the title, the
+  carpet and wall patterns, and the marquee cabinets all derive from each game's own sprites.
+- Vector originals (asteroids, the tube shooter) stay vector — that is what they were.
+
 ## What changed in 0.11.15
 
 **Day one is sized to the change machine.** The quarters are a closed loop — changed for notes,
