@@ -26,6 +26,38 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.22
+
+**Two weeks of work since 0.11.17: the bespoke machines, fourteen new titles, and a shop that runs
+at scale.** (0.11.18 to 0.11.21 were internal test builds; this section covers all of them.)
+
+- **Six machines rebuilt one at a time and locked.** Alley Roller, Puck Table, Rhythm Pad,
+  Gopher Bash, Buzzer Beater and High Striker are each modelled on the real cabinet, with their own
+  play, attract mode and service bay.
+- **The claw machine pays like a real one.** 36 collectible toys across four rarity tiers, a
+  144-cubby prize shelf, and restocking costs money.
+- **Drop Zone plays on its own board.** A sweeping dropper, one drop per play, and a bonus row
+  that stays lit.
+- **Fourteen new screen titles**, each with a demo that plays itself: Crater Run, Flag Run,
+  Shaft Run, Rescue Grid, Sky Lance, Axon Run, Chase Car, High Climb, Terra Guard, Bubble Trap,
+  Pole Run, Coast Run, Berg Push and Fuse Jack.
+- **Customers judge value.** A credit buys play time, and the dwell dial sets how much. Your
+  reputation, meaning how fair the floor feels, decides how many people come in and how much
+  they bring.
+- **Every copy is its own machine.** A second Snake has its own queue, takings and wear, and
+  customers head for the nearest free one.
+- **More change machines.** Place as many as you need. Each one has its own coin hopper and note
+  stacker to restock and empty, service is faster, and customers join the shortest line.
+- **Customers walk around things.** They plan a path around cabinets instead of walking into
+  them, and you can't place a machine where nobody could reach it.
+- **Steam achievements.** 23 goals are wired in.
+- **Settings.** Two tabs, Sound and Display & Mouse: window mode, render scale, v-sync, fps cap,
+  mouse sensitivity and invert Y. Low / Medium / High / Ultra quality presets.
+- **Big floors run smoothly.** 200 cabinets on Ultra with 160 customers on the floor never drops
+  below 30 fps on an RTX 4070, even on its slowest frame. Static scenery is merged, each customer is one
+  animated model, cabinet insides are drawn only while a panel is open, and pathfinding and
+  machine choice cost a fraction of what they did.
+
 ## What changed in 0.11.17
 
 **A maintenance cut, not a gameplay change.** The build is the 0.11.16 pixel-art pass re-exported
