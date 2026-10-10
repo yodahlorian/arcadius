@@ -9,6 +9,9 @@ licence the machines, and open the doors.
 
 ## Download
 
+[![This beta](https://img.shields.io/github/downloads/yodahlorian/arcadius/latest/total?label=this%20beta&color=f0b429)](../../releases/latest)
+[![Earlier betas](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyodahlorian%2Farcadius%2Fmain%2Fdownloads.json&query=%24.retired&label=earlier%20betas&color=6a7f99)](downloads.json)
+
 The playable beta is on the [**Releases**](../../releases) page — a single Windows `.exe`,
 no installer.
 
@@ -25,6 +28,20 @@ no installer.
   into your `Music\Arcadius` folder and tune to those instead
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
+
+## What changed in 0.11.24
+
+**Celebrities are back, and there are eight of them.** (0.11.23 was an internal test build; this covers both.)
+
+- **Eight famous faces now visit your arcade** — Rex Volta, DJ Neon Nova, Marisol Vega, Captain Quarter,
+  Big Earl Buckner, Tina 'Turbo' Tanaka, Professor Pixel and Gus Galloway
+- The first still drops in on day 4; after that a star turns up **every 3 to 6 days**, and you meet all eight
+  before anyone comes back
+- **You can see them.** The star walks in as a real guest with a gold name tag, plays your machines, and
+  customers queue up behind whatever they are playing
+- A morning notice tells you who is in today, and the busy floor that comes with them
+- The Star Struck goal (five celebrity visits) can now actually be earned
+- Customer numbers now grow with the size of your floor, limited by how far your reputation reaches
 
 ## What changed in 0.11.22
 
