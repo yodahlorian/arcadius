@@ -29,6 +29,19 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.26
+
+**Play it on a controller.** Arcadius now supports gamepads natively, ahead of Steam Deck.
+
+- **Walk the floor on a pad:** left stick moves, right stick looks, A uses whatever you are facing, B backs out,
+  the View button opens the build menu, L3 sprints and R3 crouches
+- **Every cabinet game plays on a pad** — each machine maps its own controls to the stick and buttons, including
+  the twin-stick games, the number pads and the pinball flippers on the triggers
+- **Menus and lists** work with the stick cursor and the d-pad, with A to choose
+- On-screen prompts and the cabinet control cards switch to pad buttons the moment you pick up a controller, and
+  back to keys and mouse when you touch the keyboard
+- Fixed: the arrow keys, Enter and the number keys did nothing in list menus on a keyboard (only Esc worked)
+
 ## What changed in 0.11.25
 
 **A radio that is safe to stream, and an easier way to tell us about bugs.**
