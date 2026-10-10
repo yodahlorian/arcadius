@@ -29,6 +29,17 @@ no installer.
 - Separate volume faders for music, machines and the room itself
 - Rent falls due every 30 days. That is the only way to lose
 
+## What changed in 0.11.25
+
+**A radio that is safe to stream, and an easier way to tell us about bugs.**
+
+- **Streamer-Safe Radio** — a new switch in Settings › Sound. Turn it on and the radio plays only the house
+  stations, which are all our own original music, and skips anything from your own music folder. Off by default
+- Turning it on while one of your own tracks is playing cuts it straight away and moves the dial to the nearest
+  house station
+- **Report a bug** in the pause menu now tells you where to send the report it saves to your desktop: our Discord
+- A slightly smaller download — unused artwork is no longer packed into the game
+
 ## What changed in 0.11.24
 
 **Celebrities are back, and there are eight of them.** (0.11.23 was an internal test build; this covers both.)
